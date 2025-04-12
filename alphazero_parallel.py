@@ -1,5 +1,6 @@
 import multiprocessing.connection
 from env.base_env import BaseGame, get_symmetries, ResultCounter
+from env.go.go_env import GoGame
 from torch.nn import Module
 from model.linear_model import NumpyLinearModel
 from model.linear_model_trainer import NumpyLinearModelTrainer, NumpyModelTrainingConfig
